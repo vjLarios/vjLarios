@@ -12,7 +12,6 @@
 - 🎓 Soy estudiante y desarrollador autodidacta con enfoque en tecnologías web.
 - 💡 Me apasiona aprender cosas nuevas y mejorar constantemente.
 - 🌐 Disfruto crear interfaces limpias, modernas y funcionales.
-- 💬 Actualmente aprendiendo **PHP** y **Kotlin** para ampliar mis habilidades.
 
 ---
 
@@ -21,7 +20,6 @@
 - 🎓 I’m a self-taught developer passionate about building on the web.
 - 💡 I love learning new tools and keeping my workflow up-to-date.
 - 🌐 I enjoy crafting clean, modern, and responsive interfaces.
-- 💬 Currently learning **PHP** and **Kotlin** to expand my backend and mobile dev skills.
 
 ---
 
