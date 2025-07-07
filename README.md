@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy Victor Larios</h1>
-<h3 align="center">Frontend Developer | Aprendiendo Backend | Apasionado por la tecnología y el diseño web</h3>
+<h3 align="center">Frontend Developer | Apasionado por la tecnología y el diseño web</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Fullstack+Web+Developer+in+progress;Lover+of+clean+code+%26+curious+mind;Let's+build+cool+things+together!+" alt="Typing SVG" />
