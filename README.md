@@ -57,12 +57,5 @@
   <a href="https://vjLarios.github.io"><img src="https://img.shields.io/badge/Portafolio-000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
 
----
-
-## 🐍 Snake de contribuciones
-
-<p align="center">
-  <img src="https://github.com/vjLarios/vjLarios/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</p>
 
 ---
