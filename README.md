@@ -34,7 +34,6 @@ I thrive working across different technologies, learning continuously, and creat
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vjLarios&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=7200" />
 </p>
 
-
 ---
 
 ## 🏆 GitHub Trophies
@@ -42,6 +41,45 @@ I thrive working across different technologies, learning continuously, and creat
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vjLarios&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15" />
 </p>
+
+---
+
+## 📐 GitHub Metrics
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vjLarios/vjLarios/main/github-metrics.svg" />
+</p>
+
+> ⚙️ **Setup:**  
+> 1. Create this folder in your repo: `.github/workflows/`  
+> 2. Add this file inside as `metrics.yml`:  
+>
+> ```yml
+> name: GitHub Metrics
+> on:
+>   schedule: [{cron: "0 */12 * * *"}]
+>   workflow_dispatch:
+>   push: {branches: ["main"]}
+>
+> jobs:
+>   github-metrics:
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: lowlighter/metrics@latest
+>         with:
+>           token: ${{ secrets.METRICS_TOKEN }}
+>           base: header, activity, community, repositories, metadata
+>           plugin_activity: yes
+>           plugin_languages: yes
+>           plugin_languages_sections: most-used, recently-used
+>           plugin_languages_recent_days: 14
+>           plugin_languages_details: percentage, bytes-size
+>           plugin_stars: yes
+> ```
+>
+> 3. Create a GitHub token (classic) with `public_repo` permission.  
+> 4. Add it to your repo secrets as: **METRICS_TOKEN**  
+> 5. After the workflow runs, it will generate: `github-metrics.svg`
 
 ---
 
