@@ -50,37 +50,6 @@ I thrive working across different technologies, learning continuously, and creat
   <img src="https://raw.githubusercontent.com/vjLarios/vjLarios/main/github-metrics.svg" />
 </p>
 
-> ⚙️ **Setup:**  
-> 1. Create this folder in your repo: `.github/workflows/`  
-> 2. Add this file inside as `metrics.yml`:  
->
-> ```yml
-> name: GitHub Metrics
-> on:
->   schedule: [{cron: "0 */12 * * *"}]
->   workflow_dispatch:
->   push: {branches: ["main"]}
->
-> jobs:
->   github-metrics:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: lowlighter/metrics@latest
->         with:
->           token: ${{ secrets.METRICS_TOKEN }}
->           base: header, activity, community, repositories, metadata
->           plugin_activity: yes
->           plugin_languages: yes
->           plugin_languages_sections: most-used, recently-used
->           plugin_languages_recent_days: 14
->           plugin_languages_details: percentage, bytes-size
->           plugin_stars: yes
-> ```
->
-> 3. Create a GitHub token (classic) with `public_repo` permission.  
-> 4. Add it to your repo secrets as: **METRICS_TOKEN**  
-> 5. After the workflow runs, it will generate: `github-metrics.svg`
-
 ---
 
 ## 🌐 Let's Connect
@@ -89,16 +58,4 @@ I thrive working across different technologies, learning continuously, and creat
   <a href="https://www.linkedin.com/in/victor-josue-larios-rosas-92b587278/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="mailto:vjosuee05@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://vjLarios.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-101010?style=for-the-badge&logo=vercel&logoColor=white">
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>Less excuses. More code</i>
-</p>
+  <a href="mailto:vjosuee05@gmail
